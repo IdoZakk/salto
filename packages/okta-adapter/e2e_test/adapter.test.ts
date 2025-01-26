@@ -762,6 +762,7 @@ const getDomain = (url: string): string => {
   return match ? match[1] : ''
 }
 
+// temporary. Should be removed as part of SALTO-7359
 // eslint-disable-next-line jest/no-disabled-tests
 describe.skip('Okta adapter E2E', () => {
   describe('fetch and deploy', () => {
